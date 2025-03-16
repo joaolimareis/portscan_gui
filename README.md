@@ -55,3 +55,4 @@ Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais deta
 Se desejar contribuir, envie um Pull Request ou abra uma Issue.
 
 
+# portscan_gui
