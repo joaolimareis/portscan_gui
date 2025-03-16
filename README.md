@@ -1,27 +1,29 @@
-# PortScan GUI - Scanner de Portas com Interface Gráfica
+# PortScan GUI - Scanner de Portas com Interface Web
 
-## Descrição
-PortScan GUI é uma ferramenta simples e intuitiva para escanear portas abertas em um IP ou domínio especificado pelo usuário. Utiliza Python, `socket` para a varredura, `threading` para otimização e `tkinter` para interface gráfica.
+## 📌 Descrição
+PortScan GUI é uma ferramenta simples e interativa para escanear portas abertas em um IP ou domínio especificado pelo usuário. Utiliza Python, `socket` para a varredura, `threading` para otimização e `Streamlit` para a interface web.
 
-## Funcionalidades
-- Permite inserir um IP ou domínio para escaneamento.
-- Define um intervalo de portas para verificar.
-- Exibe portas abertas em uma interface amigável.
-- Utiliza threads para acelerar o escaneamento.
+## 🚀 Funcionalidades
+- Interface web intuitiva usando Streamlit.
+- Insira um IP ou domínio e selecione portas específicas para análise.
+- Exibição de portas abertas diretamente na interface.
+- Explicação educativa sobre portas e redes.
+- Registro dos escaneamentos em um arquivo de log (`scan_log.txt`).
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 ```
 portscan_gui/
-│── portscan.py        # Arquivo principal com a lógica do scanner
-│── gui.py             # Arquivo para a interface gráfica
-│── requirements.txt   # Lista de dependências do projeto
-│── README.md          # Documentação inicial
-│── LICENSE            # Licença do projeto (opcional)
+│── portscan.py        # Lógica do scanner de portas
+│── gui.py             # Interface web com Streamlit
+│── requirements.txt   # Lista de dependências
+│── README.md          # Documentação do projeto
+│── LICENSE            # Licença do projeto
 │── docs/              # Pasta para documentação futura
-│── assets/            # Pasta para ícones ou imagens da interface (se necessário)
+│── assets/            # Ícones ou imagens da interface (se necessário)
+│── scan_log.txt       # Arquivo de log com o histórico dos escaneamentos
 ```
 
-## Instalação
+## 🛠️ Instalação
 1. Clone este repositório:
    ```sh
    git clone https://github.com/seuusuario/portscan_gui.git
@@ -35,23 +37,22 @@ portscan_gui/
    pip install -r requirements.txt
    ```
 
-## Uso
-Execute o arquivo principal:
+## ▶ Uso
+Execute a interface web com o seguinte comando:
 ```sh
-python gui.py
+streamlit run gui.py
 ```
-Insira um IP/Domínio, defina o intervalo de portas e inicie a varredura.
+Depois, acesse o navegador no link gerado pelo Streamlit para utilizar a ferramenta.
 
-## Dependências
+## 📦 Dependências
 As bibliotecas utilizadas estão listadas em `requirements.txt`, incluindo:
 - `socket`
 - `threading`
-- `tkinter`
+- `streamlit`
 
-## Licença
+## 📜 Licença
 Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
-## Contribuição
-Se desejar contribuir, envie um Pull Request ou abra uma Issue.
-
+## 🤝 Contribuição
+Se desejar contribuir, envie um Pull Request ou abra uma Issue no repositório.
 
