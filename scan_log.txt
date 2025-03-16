@@ -1,0 +1,4 @@
+[2025-03-15 23:29:46.653262] Escaneamento realizado em google.com
+Portas analisadas: 80, 443, 50, 25
+Portas abertas: 80, 443
+--------------------------------------------------
