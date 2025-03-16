@@ -55,4 +55,5 @@ Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais deta
 
 ## 🤝 Contribuição
 Se desejar contribuir, envie um Pull Request ou abra uma Issue no repositório.
+![image](https://github.com/user-attachments/assets/bbf8c3a0-c4b3-4bb2-9c4d-3f1ea9e71162)
 
